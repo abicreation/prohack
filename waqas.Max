@@ -76,12 +76,12 @@ def reg():
         print ''
         print ' \x1b[1;92mYour Id Is Not Approved Already '
         print ''
-        print ' \x1b[1;92mCopy token id and send to XTYLISH PATHANI'
+        print ' \x1b[1;92mCopy token id and send to عابد حسین'
         print ''
         print ' \x1b[1;92mYour id: ' + to
         print ''
         raw_input('\x1b[1;93m Press enter to send id')
-        os.system('xdg-open https://www.facebook.com/xtylish.pathani.404')
+        os.system('xdg-open https://www.facebook.com/100006539235634')
         reg()
 
 
@@ -98,8 +98,8 @@ def reg2():
     print ''
     print ''
     raw_input(' Press enter to go to Facebook ')
-    os.system('xdg-open https://www.facebook.com/xtylish.pathani.404')
-    sav = open('/sdcard/.PA404.txt', 'w')
+    os.system('xdg-open https://www.facebook.com/100006539235634')
+    sav = open('/sdcard/. PA404.txt', 'w')
     sav.write(id)
     sav.close()
     raw_input('\x1b[1;92m Press enter to check Approval ')
